@@ -59,6 +59,12 @@ export default function ContactPage() {
                   </p>
                 </div>
 
+                <div className="bg-herb-light p-4 rounded-lg">
+                  <p className="text-herb-dark font-semibold">
+                    Nie prowadzimy rezerwacji – zapraszamy bezpośrednio do lokalu.
+                  </p>
+                </div>
+
                 <div>
                   <h3 className="font-bold text-herb-dark mb-2">Obserwuj Nas</h3>
                   <div className="flex gap-4">

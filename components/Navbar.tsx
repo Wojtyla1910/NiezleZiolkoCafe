@@ -15,7 +15,7 @@ export default function Navbar() {
       className="sticky top-0 z-50 bg-warm-cream/95 backdrop-blur-sm border-b border-warm-beige shadow-sm"
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="relative flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <div className="w-8 h-8 bg-herb-green rounded-full flex items-center justify-center">
@@ -27,7 +27,7 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-8 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
             <Link href="/menu" className="text-herb-dark hover:text-herb-green font-medium">
               Menu
             </Link>
@@ -39,17 +39,9 @@ export default function Navbar() {
             </Link>
           </div>
 
-          {/* CTA Button */}
-          <Link
-            href="/reservations"
-            className="bg-herb-green text-white px-4 sm:px-6 py-2 rounded-lg hover:bg-herb-dark transition-colors font-medium text-sm"
-          >
-            Zarezerwuj
-          </Link>
-
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden ml-4"
+            className="md:hidden"
             onClick={() => setIsOpen(!isOpen)}
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">

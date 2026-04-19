@@ -19,7 +19,6 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li><Link href="/menu" className="hover:text-warm-beige transition-colors">Menu</Link></li>
               <li><Link href="/about" className="hover:text-warm-beige transition-colors">O nas</Link></li>
-              <li><Link href="/reservations" className="hover:text-warm-beige transition-colors">Rezerwacje</Link></li>
               <li><Link href="/contact" className="hover:text-warm-beige transition-colors">Kontakt</Link></li>
             </ul>
           </div>

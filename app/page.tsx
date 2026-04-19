@@ -159,16 +159,16 @@ export default function Home() {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-herb-dark text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="font-serif text-4xl font-bold mb-4">
-            Zarezerwuj Stolik Już Teraz
+            Odwiedź nas już dziś
           </h2>
           <p className="text-lg text-gray-100 mb-8">
-            Popularne miejsce - rezerwacje zapewniają miejsce na pewno!
+            Jesteśmy otwarci codziennie - zapraszamy na pyszną kawę i zioła!
           </p>
           <Link
-            href="/reservations"
+            href="/menu"
             className="inline-block bg-herb-green hover:bg-herb-light text-white px-10 py-4 rounded-lg font-bold text-lg transition-colors"
           >
-            Zarezerwuj Stolik
+            Zobacz Menu
           </Link>
         </div>
       </section>

@@ -6,7 +6,7 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Niezłe Ziółko Cafe - Kawiarnia & Bistro',
-  description: 'Naturalna kawiarnia z aromatycznymi ziołami, specjalnościowymi kawami i pysznymi śniadaniami. Zarezerwuj stolik już dziś!',
+  description: 'Naturalna kawiarnia z aromatycznymi ziołami, specjalnościowymi kawami i pysznymi śniadaniami. Zapraszamy do odwiedzenia naszego lokalu!',
   keywords: 'kawiarnia, bistro, kawa specialty, śniadania, ziołowe napoje, Warsaw',
   openGraph: {
     title: 'Niezłe Ziółko - Kawiarnia & Bistro',

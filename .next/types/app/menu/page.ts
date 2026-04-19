@@ -1,4 +1,4 @@
-// File: C:\Users\loswo\Desktop\strona\app\menu\page.tsx
+// File: C:\Users\loswo\Desktop\NiezleZiolkoCafe\app\menu\page.tsx
 import * as entry from '../../../../app/menu/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

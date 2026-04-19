@@ -15,8 +15,8 @@ interface HeroProps {
 export default function Hero({
   title,
   subtitle,
-  ctaText = 'Zarezerwuj Stolik',
-  ctaLink = '/reservations',
+  ctaText = 'Zobacz Menu',
+  ctaLink = '/menu',
   backgroundImage = 'https://images.unsplash.com/photo-1521017874891-8264482acb0c?w=1200&h=600&fit=crop',
 }: HeroProps) {
   return (
@@ -60,12 +60,6 @@ export default function Hero({
             className="bg-herb-green hover:bg-herb-dark text-white px-8 py-3 rounded-lg font-semibold transition-colors"
           >
             {ctaText}
-          </Link>
-          <Link
-            href="/menu"
-            className="bg-white hover:bg-warm-cream text-herb-dark px-8 py-3 rounded-lg font-semibold transition-colors"
-          >
-            Zobacz Menu
           </Link>
         </motion.div>
       </div>
